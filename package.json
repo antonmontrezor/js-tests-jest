@@ -5,7 +5,8 @@
   "main": "math.js",
   "scripts": {
     "test": "jest",
-    "test:all": "node 1.js && node 2.js && node 3.js && node 4.js && jest"
+    "test:all": "node 1.js && node 2.js && node 3.js && node 4.js && jest",
+    "testURL": "http://localhost/"
   },
   "keywords": [],
   "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
@@ -14,6 +15,7 @@
     "jest": "^22.0.4"
   },
   "jest": {
-    "testMatch": ["**/5.js"]
+    "testMatch": ["**/5.js"],
+    "testURL": "http://localhost/"
   }
 }
